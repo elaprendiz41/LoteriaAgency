@@ -45,7 +45,8 @@ Local-first + topes globales multi-cajero implica **servidor LAN en la agencia**
 - [x] Endpoint demo: `GET /api/demo/errors/{not-found|bad-request|server-error}`
 - [x] README clone + `dotnet build`
 - [x] `.gitignore` sin bin/obj
-- [ ] Captura Postman problem+json (**manual — estudiante**)
+- [x] Repo GitHub + commits descriptivos → https://github.com/wgenius2003/LoteriaAgency
+- [ ] Captura Postman problem+json (**manual — 2 min**: importar `docs/evidence/LoteriaAgency-RFC7807.postman_collection.json`)
 
 ### Verificación automática H1
 
