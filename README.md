@@ -17,11 +17,15 @@ Fuente de verdad del roadmap: [`docs/ROADMAP.md`](docs/ROADMAP.md).
 
 - [.NET 10 SDK](https://dotnet.microsoft.com/download)
 
+## Repositorio
+
+https://github.com/wgenius2003/LoteriaAgency
+
 ## Clonar y compilar
 
 ```bash
-git clone <url-del-repositorio>
-cd osman   # o el nombre de la carpeta del clone
+git clone https://github.com/wgenius2003/LoteriaAgency.git
+cd LoteriaAgency
 dotnet restore LoteriaAgency.slnx
 dotnet build LoteriaAgency.slnx
 ```
