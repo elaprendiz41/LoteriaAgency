@@ -1,0 +1,15 @@
+@Presentation.API_HostAddress = http://localhost:5001
+
+### RFC 7807 — 404
+GET {{Presentation.API_HostAddress}}/api/demo/errors/not-found
+Accept: application/problem+json
+
+###
+### RFC 7807 — 400
+GET {{Presentation.API_HostAddress}}/api/demo/errors/bad-request
+Accept: application/problem+json
+
+###
+### RFC 7807 — 500
+GET {{Presentation.API_HostAddress}}/api/demo/errors/server-error
+Accept: application/problem+json
