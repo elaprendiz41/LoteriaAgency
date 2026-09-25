@@ -46,7 +46,7 @@ Local-first + topes globales multi-cajero implica **servidor LAN en la agencia**
 - [x] README clone + `dotnet build`
 - [x] `.gitignore` sin bin/obj
 - [x] Repo GitHub + commits descriptivos → https://github.com/wgenius2003/LoteriaAgency
-- [ ] Captura Postman problem+json (**manual — 2 min**: importar `docs/evidence/LoteriaAgency-RFC7807.postman_collection.json`)
+- [x] Captura Postman problem+json → `docs/evidence/postman-{404,400,500}.png`
 
 ### Verificación automática H1
 
@@ -71,4 +71,4 @@ Auth JWT, EF Core, caja ciega, RiskCap concurrente, UI React keyboard-first, syn
 - [x] API: 404/400/500 → `application/problem+json`
 - [x] README usable por un tercero
 - [x] ROADMAP marca H1 done / H2 next
-- [ ] Evidencia Postman (manual)
+- [x] Evidencia Postman (404 / 400 / 500)
