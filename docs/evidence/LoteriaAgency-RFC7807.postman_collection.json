@@ -1,0 +1,46 @@
+{
+  "info": {
+    "_postman_id": "loteria-agency-h1",
+    "name": "LoteriaAgency H1 — RFC 7807",
+    "description": "Demo ExceptionMiddleware (Fase 1 / Hito 1). Importar en Postman y capturar respuesta problem+json.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:5001"
+    }
+  ],
+  "item": [
+    {
+      "name": "404 Not Found (KeyNotFoundException)",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "Accept", "value": "application/problem+json" }
+        ],
+        "url": "{{baseUrl}}/api/demo/errors/not-found"
+      }
+    },
+    {
+      "name": "400 Bad Request (InvalidOperationException)",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "Accept", "value": "application/problem+json" }
+        ],
+        "url": "{{baseUrl}}/api/demo/errors/bad-request"
+      }
+    },
+    {
+      "name": "500 Internal Server Error (Exception)",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "Accept", "value": "application/problem+json" }
+        ],
+        "url": "{{baseUrl}}/api/demo/errors/server-error"
+      }
+    }
+  ]
+}

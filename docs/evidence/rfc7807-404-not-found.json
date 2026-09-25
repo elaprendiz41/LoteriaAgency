@@ -1,0 +1,7 @@
+{
+  "type": "https://httpstatuses.com/404",
+  "title": "Recurso No Encontrado",
+  "status": 404,
+  "detail": "El recurso solicitado no existe.",
+  "instance": "/api/demo/errors/not-found"
+}
